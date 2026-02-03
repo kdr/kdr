@@ -55,10 +55,10 @@
 
 <p align="center">
   <a href="https://github.com/kdr">
-    <img height="150" src="https://github-readme-stats.vercel.app/api?username=kdr&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=000000&title_color=00ff00&text_color=00ff00&icon_color=00ff00&count_private=true" />
+      <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=kdr&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=7200" height="170" alt="github stats"/>
   </a>
   <a href="https://github.com/kdr">
-    <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kdr&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=000000&title_color=00ff00&text_color=00ff00" />
+      <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=kdr&layout=compact&theme=github_dark&hide_border=true&hide=jupyter%20notebook" height="170" alt="top langs"/>
   </a>
 </p>
 
