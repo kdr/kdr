@@ -48,6 +48,9 @@
 ║  // currently hacking on video agents                                        ║
 ║  // wondering why more people aren't obsessed with multimodal ai             ║
 ║                                                                              ║
+║  // Come work with me, hiring!:  https://cloudglue.dev/careers               ║
+║                                                                              ║
+║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
