@@ -25,13 +25,13 @@
 
 ---
 
-### `[ 00 ]` Now
+### Now
 
 Co-founder & CTO at **Cloudglue** — APIs and agents that turn video collections into searchable, queryable knowledge with replayable evidence. Builder of **Tinycloud**, the first agentic AI harness for orchestrating video work.
 
 Previously: Staff ML Engineer / Tech Lead Manager **@ Snap**, SDE **@ Amazon**, M.S. Language Technologies **@ Carnegie Mellon**.
 
-### `[ 01 ]` By the numbers
+### By the numbers
 
 | | |
 |---|---|
@@ -41,11 +41,11 @@ Previously: Staff ML Engineer / Tech Lead Manager **@ Snap**, SDE **@ Amazon**, 
 | **50+** ML use cases | powered by vector retrieval, visual search, data pipelines |
 | **0 → 10** team build | grew and led a production ML infrastructure team at Snap |
 
-### `[ 02 ]` Focus
+### Focus
 
 `Video understanding`  ·  `Multimodal retrieval`  ·  `Agentic AI`  ·  `ML infrastructure`
 
-### `[ 03 ]` Selected work & talks
+### Selected work & talks
 
 - **Autonomous Video Hunter** — AI agents for real-time OSINT · *DEF CON 33 Recon Village* · [watch](https://www.youtube.com/watch?v=oHjQSpcP664)
 - **AI That Gets the Picture** — building video-aware assistants · *CascadiaJS 2025* [watch](https://www.youtube.com/watch?v=7tcdmZ1U90M)
