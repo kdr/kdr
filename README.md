@@ -48,7 +48,7 @@ Previously: Staff ML Engineer / Tech Lead Manager **@ Snap**, SDE **@ Amazon**, 
 ### `[ 03 ]` Selected work & talks
 
 - **Autonomous Video Hunter** — AI agents for real-time OSINT · *DEF CON 33 Recon Village* · [watch](https://www.youtube.com/watch?v=oHjQSpcP664)
-- **AI That Gets the Picture** — building video-aware assistants · *CascadiaJS 2025*
+- **AI That Gets the Picture** — building video-aware assistants · *CascadiaJS 2025* [watch](https://www.youtube.com/watch?v=7tcdmZ1U90M)
 - **MLOps at Snapchat** — continuous ML with Kubeflow and Spinnaker · *KubeCon + CloudNativeCon* · [watch](https://www.youtube.com/watch?v=Sovxz3m2sj0)
 - **SageMaker Ground Truth** — building accurate training datasets · *AWS re:Invent 2019* · [watch](https://www.youtube.com/watch?v=6WJxzKsIFKA)
 
@@ -63,9 +63,4 @@ Published at **NeurIPS · ICCV · CVPR · WACV · KDD · WWW · SIGIR · RecSys 
   <a href="https://github.com/kdr">
     <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=kdr&layout=compact&theme=transparent&hide_border=true&title_color=007c70&hide=jupyter%20notebook" height="160" alt="Top languages"/>
   </a>
-</p>
-
-<p align="center">
-  <em>Currently hacking on video agents — and wondering why more people aren't obsessed with multimodal AI.</em><br/>
-  <a href="https://cloudglue.dev/careers"><strong>We're hiring → cloudglue.dev/careers</strong></a>
 </p>
