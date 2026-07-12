@@ -13,7 +13,7 @@ out_light: assets/profile-light.svg
 - Uptime: {uptime since 2007-05} in ML
 - Host: Cloudglue (YC S24), Co-founder & CTO
 - Kernel: Multimodal AI · Video Understanding
-- Shell: Python, Go, TypeScript, Swift, Kotlin
+- Languages: Python, Go, TypeScript
 - Harness: Tinycloud — agentic AI for video
 
 ## Stack
