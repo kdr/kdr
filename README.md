@@ -1,17 +1,12 @@
-<h1 align="center">Kevin Dela Rosa</h1>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/profile-dark.svg">
+    <img src="assets/profile-light.svg" alt="Kevin Dela Rosa — pixel-art portrait beside terminal-style stats: Co-founder & CTO @ Cloudglue, 22 publications, 11 patents, 100M+ users reached" width="100%">
+  </picture>
+</p>
 
 <p align="center">
   <strong>Building video context systems for the agentic era.</strong>
-</p>
-
-<p align="center">
-  Co-founder &amp; CTO <a href="https://cloudglue.dev/">@ Cloudglue</a> · Multimodal AI · ML Infrastructure · Researcher · Speaker
-</p>
-
-<p align="center">
-  I build and deploy production AI, ML, and computer vision systems —<br/>
-  multimodal agents, retrieval, and ML infrastructure that make video<br/>
-  searchable, grounded, and useful in real workflows.
 </p>
 
 <p align="center">
@@ -25,30 +20,10 @@
 
 ---
 
-### Now
-
-Co-founder & CTO at **Cloudglue** — APIs and agents that turn video collections into searchable, queryable knowledge with replayable evidence. Builder of **Tinycloud**, the first agentic AI harness for orchestrating video work.
-
-Previously: Staff ML Engineer / Tech Lead Manager **@ Snap**, SDE **@ Amazon**, M.S. Language Technologies **@ Carnegie Mellon**.
-
-### By the numbers
-
-| | |
-|---|---|
-| **22** publications | multimodal AI, retrieval, NLP, vision, learning systems |
-| **11** patents | visual search, scanning, AR unlocks, OCR, ML systems |
-| **100M+** users reached | Snap camera, Scan, search, messaging, and AR |
-| **50+** ML use cases | powered by vector retrieval, visual search, data pipelines |
-| **0 → 10** team build | grew and led a production ML infrastructure team at Snap |
-
-### Focus
-
-`Video understanding`  ·  `Multimodal retrieval`  ·  `Agentic AI`  ·  `ML infrastructure`
-
 ### Selected work & talks
 
 - **Autonomous Video Hunter** — AI agents for real-time OSINT · *DEF CON 33 Recon Village* · [watch](https://www.youtube.com/watch?v=oHjQSpcP664)
-- **AI That Gets the Picture** — building video-aware assistants · *CascadiaJS 2025* [watch](https://www.youtube.com/watch?v=7tcdmZ1U90M)
+- **AI That Gets the Picture** — building video-aware assistants · *CascadiaJS 2025* · [watch](https://www.youtube.com/watch?v=7tcdmZ1U90M)
 - **MLOps at Snapchat** — continuous ML with Kubeflow and Spinnaker · *KubeCon + CloudNativeCon* · [watch](https://www.youtube.com/watch?v=Sovxz3m2sj0)
 - **SageMaker Ground Truth** — building accurate training datasets · *AWS re:Invent 2019* · [watch](https://www.youtube.com/watch?v=6WJxzKsIFKA)
 
