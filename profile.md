@@ -43,5 +43,5 @@ out_light: assets/profile-light.svg
 - Patents: 11 · visual search, AR, OCR, ML
 - Users.Reached: 100,000,000+
 - ML.UseCases: 50+ | Team.Built: 0 → 10
-- Stages: DEF CON · KubeCon · re:Invent · GTC
+- Stages: DEF CON · KubeCon · re:Invent
 - Spotted.At: Super Bowl LV · Cannes · Art Basel
