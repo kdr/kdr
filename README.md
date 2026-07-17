@@ -28,14 +28,3 @@
 - **SageMaker Ground Truth** — building accurate training datasets · *AWS re:Invent 2019* · [watch](https://www.youtube.com/watch?v=6WJxzKsIFKA)
 
 Published at **NeurIPS · ICCV · CVPR · WACV · KDD · WWW · SIGIR · RecSys · NAACL · ISMIR**
-
----
-
-<p align="center">
-  <a href="https://github.com/kdr">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=kdr&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&count_private=true&title_color=007c70&icon_color=c8462e&cache_seconds=7200" height="160" alt="GitHub stats"/>
-  </a>
-  <a href="https://github.com/kdr">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=kdr&layout=compact&theme=transparent&hide_border=true&title_color=007c70&hide=jupyter%20notebook" height="160" alt="Top languages"/>
-  </a>
-</p>
