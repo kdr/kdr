@@ -11,8 +11,8 @@ profile.md format:
   - `# user@host`  -> panel header line
   - `## Title`     -> section rule
   - `- Key: Value` -> dot-leader stat line
-  - `{uptime since YYYY-MM}` in a value expands to "N years, M months"
-    computed at render time.
+  - `{years since YYYY-MM}` in a value expands to "N years", computed
+    at render time.
 
 The avatar is resampled to its native pixel grid (crop / cell / colors)
 and embedded as crisp pixel art; stats text is pinned per-segment with
@@ -58,18 +58,14 @@ THEMES = {
 FONT = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace"
 
 
-def expand_uptime(value):
+def expand_years(value):
     def repl(m):
         y, mo = int(m.group(1)), int(m.group(2))
         today = date.today()
-        months = (today.year - y) * 12 + (today.month - mo)
-        years, rem = divmod(months, 12)
-        ytxt = f"{years} year" + ("s" if years != 1 else "")
-        if rem == 0:
-            return ytxt
-        return f"{ytxt}, {rem} month" + ("s" if rem != 1 else "")
+        years = ((today.year - y) * 12 + (today.month - mo)) // 12
+        return f"{years} year" + ("s" if years != 1 else "")
 
-    return re.sub(r"\{uptime since (\d{4})-(\d{2})\}", repl, value)
+    return re.sub(r"\{years since (\d{4})-(\d{2})\}", repl, value)
 
 
 def parse(path):
@@ -113,7 +109,7 @@ def parse(path):
             lines.append(segs + [("─" * (STAT_W - pad), "rule")])
         elif s.startswith("- ") and ": " in s:
             key, val = s[2:].split(": ", 1)
-            val = expand_uptime(val.strip())
+            val = expand_years(val.strip())
             base = f". {key}:"
             ndots = STAT_W - len(base) - len(val) - 2
             if ndots < 1:

@@ -10,10 +10,10 @@ out_light: assets/profile-light.svg
 # kdr@github
 
 - Name: Kevin Dela Rosa
-- Uptime: {uptime since 2007-05} in ML
-- Host: Cloudglue (YC S24)
 - Role: Co-founder & CTO
-- Kernel: Multimodal Video Understanding
+- Company: Cloudglue (YC S24)
+- Building: video context for agents
+- Experience: {years since 2007-05} in ML
 - Languages: Python, Go, TypeScript
 
 ## Stack
