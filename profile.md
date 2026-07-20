@@ -35,7 +35,7 @@ out_light: assets/profile-light.svg
 
 ## By.The.Numbers
 
-- Publications: 22 · NeurIPS CVPR KDD
+- Publications: 22 · NeurIPS CVPR SIGIR
 - Patents: 11 · visual search, AR, OCR
 - Users.Reached: 100,000,000+
 - ML.UseCases: 50+ | Team.Built: 0 → 10
