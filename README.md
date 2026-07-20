@@ -20,6 +20,16 @@
 
 ---
 
+> ### 📡 Next up — DEF CON 34 Demo Labs
+>
+> **[Overcast: Video OSINT Agent. Point It at 100 Videos, Ask Anything](https://info.defcon.org/defcon34/content/?id=66515)**
+>
+> A CLI agent and skill pack that drops into any agentic harness and turns footage into cited evidence — speech, on-screen text, objects, faces, and named entities, all accumulating in persistent case memory.
+>
+> 🗓️ **Fri Aug 7, 12:00** & **Sat Aug 8, 16:00 PDT** · LVCC Exhibit Hall West 3 (Demo Labs Track 6) · [github.com/kdr/overcast](https://github.com/kdr/overcast)
+
+---
+
 ### Selected work & talks
 
 - **Autonomous Video Hunter** — AI agents for real-time OSINT · *DEF CON 33 Recon Village* · [watch](https://www.youtube.com/watch?v=oHjQSpcP664)
