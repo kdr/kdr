@@ -24,9 +24,9 @@ out_light: assets/profile-light.svg
 ## History
 
 - 2024–now: Cloudglue, Co-founder & CTO
-- 2016–24: Snap, Staff ML Eng / TL Mgr
-- 2011–16: Amazon, Software Dev Eng
-- Degrees: CMU M.S. · UTA B.S. Phys/CS
+- 2016–24: Perception @ Snap, Staff MLE
+- 2011–16: Amazon, SDE
+- Degrees: CMU MS NLP · UTA BS Phys/CS
 
 ## Contact
 
