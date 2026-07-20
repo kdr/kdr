@@ -13,7 +13,7 @@ out_light: assets/profile-light.svg
 - Role: Co-founder & CTO
 - Company: Cloudglue (YC S24)
 - Building: video context for agents
-- Experience: {years since 2007-05} in ML
+- Experience: {years since 2007-05} in ML / NLP / CV
 - Languages: Python, Go, TypeScript
 
 ## Stack
