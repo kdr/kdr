@@ -14,10 +14,10 @@ out_light: assets/profile-light.svg
 - Company: Cloudglue (YC S24)
 - Building: video context for agents
 - Experience: {years since 2007-05} in ML / NLP / CV
-- Languages: Python, Go, TypeScript
 
 ## Stack
 
+- Languages: Python, Go, TypeScript
 - AI: PyTorch, LLMs, Agents, RAG, MCP
 - Search: billion-scale vector search
 

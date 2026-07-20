@@ -37,4 +37,4 @@
 - **MLOps at Snapchat** — continuous ML with Kubeflow and Spinnaker · *KubeCon + CloudNativeCon* · [watch](https://www.youtube.com/watch?v=Sovxz3m2sj0)
 - **SageMaker Ground Truth** — building accurate training datasets · *AWS re:Invent 2019* · [watch](https://www.youtube.com/watch?v=6WJxzKsIFKA)
 
-Published at **NeurIPS · ICCV · CVPR · WACV · KDD · WWW · SIGIR · RecSys · NAACL · ISMIR**
+Published at **NeurIPS · ICCV · CVPR · WACV · KDD · WWW · CAIS · SIGIR · RecSys · NAACL · ISMIR**
