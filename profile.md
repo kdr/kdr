@@ -10,38 +10,33 @@ out_light: assets/profile-light.svg
 # kdr@github
 
 - Name: Kevin Dela Rosa
-- Uptime: {uptime since 2007-05} in ML
-- Host: Cloudglue (YC S24), Co-founder & CTO
-- Kernel: Multimodal AI · Video Understanding
-- Languages: Python, Go, TypeScript
-- Harness: Tinycloud — agentic AI for video
+- Role: Co-founder & CTO
+- Company: Cloudglue (YC S24)
+- Building: video context for agents
+- Experience: {years since 2007-05} in ML / NLP / CV
 
 ## Stack
 
+- Languages: Python, Go, TypeScript
 - AI: PyTorch, LLMs, Agents, RAG, MCP
-- Retrieval: vector search @ billion+ scale
-- Infra: AWS, GCP, K8s, FFmpeg, OpenCV
+- Search: billion-scale vector search
 
 ## History
 
-- 2024–now: Co-founder & CTO @ Cloudglue
-- 2016–24: Staff ML Eng / TL Manager @ Snap
-- 2011–16: Software Dev Engineer @ Amazon
-- Degrees: CMU M.S. (LTI) · UTA B.S. Physics/CS
+- 2024–now: Cloudglue, Co-founder & CTO
+- 2016–24: Perception @ Snap, Staff MLE
+- 2011–16: Amazon, SDE
+- Degrees: CMU MS LTI · UTA BS Phys/CS
 
 ## Contact
 
 - Web: kevindelarosa.com
-- Email: kevd1337@gmail.com
-- GitHub: @kdr
-- LinkedIn: kdrwins
-- X: @kdrwins
+- Social: @kdrwins (X · LinkedIn)
 
 ## By.The.Numbers
 
-- Publications: 22 · NeurIPS CVPR ICCV KDD SIGIR
-- Patents: 11 · visual search, AR, OCR, ML
+- Publications: 22 · NeurIPS CVPR SIGIR
+- Patents: 11 · visual search, AR, OCR
 - Users.Reached: 100,000,000+
 - ML.UseCases: 50+ | Team.Built: 0 → 10
-- Stages: DEF CON · KubeCon · re:Invent
-- Spotted.At: Super Bowl LV · Cannes · Art Basel
+- Stages: DEF CON · Super Bowl · Cannes

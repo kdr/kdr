@@ -11,8 +11,8 @@ profile.md format:
   - `# user@host`  -> panel header line
   - `## Title`     -> section rule
   - `- Key: Value` -> dot-leader stat line
-  - `{uptime since YYYY-MM}` in a value expands to "N years, M months"
-    computed at render time.
+  - `{years since YYYY-MM}` in a value expands to "N years", computed
+    at render time.
 
 The avatar is resampled to its native pixel grid (crop / cell / colors)
 and embedded as crisp pixel art; stats text is pinned per-segment with
@@ -29,7 +29,7 @@ from pathlib import Path
 
 from PIL import Image
 
-STAT_W = 56  # stats panel width in character cells
+STAT_W = 44  # stats panel width in character cells
 CELL_PX = 8  # svg px per art pixel
 
 THEMES = {
@@ -58,18 +58,14 @@ THEMES = {
 FONT = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace"
 
 
-def expand_uptime(value):
+def expand_years(value):
     def repl(m):
         y, mo = int(m.group(1)), int(m.group(2))
         today = date.today()
-        months = (today.year - y) * 12 + (today.month - mo)
-        years, rem = divmod(months, 12)
-        ytxt = f"{years} year" + ("s" if years != 1 else "")
-        if rem == 0:
-            return ytxt
-        return f"{ytxt}, {rem} month" + ("s" if rem != 1 else "")
+        years = ((today.year - y) * 12 + (today.month - mo)) // 12
+        return f"{years} year" + ("s" if years != 1 else "")
 
-    return re.sub(r"\{uptime since (\d{4})-(\d{2})\}", repl, value)
+    return re.sub(r"\{years since (\d{4})-(\d{2})\}", repl, value)
 
 
 def parse(path):
@@ -113,7 +109,7 @@ def parse(path):
             lines.append(segs + [("─" * (STAT_W - pad), "rule")])
         elif s.startswith("- ") and ": " in s:
             key, val = s[2:].split(": ", 1)
-            val = expand_uptime(val.strip())
+            val = expand_years(val.strip())
             base = f". {key}:"
             ndots = STAT_W - len(base) - len(val) - 2
             if ndots < 1:
@@ -151,9 +147,9 @@ def esc(s):
 def render(theme, lines, art_b64, art_w, art_h):
     t = THEMES[theme]
     pad = 24
-    fs = 13.5
-    u = 8.1  # forced char cell width via textLength
-    lh = 18
+    fs = 17
+    u = 10.2  # forced char cell width via textLength
+    lh = 23
     stat_x = pad + art_w + 28
     text_h = 14 + (len(lines) - 1) * lh + 6
     H = max(art_h, text_h) + pad * 2
