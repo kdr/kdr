@@ -8,7 +8,7 @@
 
 profile.md format:
   - YAML-ish frontmatter: avatar, crop, cell, colors, out_dark, out_light
-  - `# user@host`  -> panel header line
+  - `# Title @handle` -> panel header (handle optional, sits after title)
   - `## Title`     -> section rule
   - `- Key: Value` -> dot-leader stat line
   - `{years since YYYY-MM}` in a value expands to "N years", computed
@@ -100,11 +100,13 @@ def parse(path):
             )
         elif s.startswith("# "):
             title = s[2:].strip()
-            if "@" in title:
-                user, host = title.split("@", 1)
-                segs = [("- ", "dots"), (user, "key"), ("@", "at"), (f"{host} ", "head")]
-            else:
-                segs = [("- ", "dots"), (f"{title} ", "head")]
+            handle = ""
+            if " @" in title:
+                title, tag = title.split(" @", 1)
+                handle = "@" + tag
+            segs = [("- ", "dots"), (f"{title} ", "head")]
+            if handle:
+                segs.append((f"{handle} ", "key"))
             pad = sum(len(t) for t, _ in segs)
             lines.append(segs + [("─" * (STAT_W - pad), "rule")])
         elif s.startswith("- ") and ": " in s:

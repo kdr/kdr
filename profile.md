@@ -7,13 +7,12 @@ out_dark: assets/profile-dark.svg
 out_light: assets/profile-light.svg
 ---
 
-# Whoami
+# Whoami @kdrwins
 
 - Name: Kevin Dela Rosa
 - Building: video/multimodal agents
 - Experience: {years since 2007-05} in ML / NLP / CV
 - Web: kevindelarosa.com
-- Social: @kdrwins (X · LinkedIn)
 
 ## History
 
@@ -26,5 +25,4 @@ out_light: assets/profile-light.svg
 
 - Publications: 22 · NeurIPS CVPR SIGIR
 - Patents: 11 · visual search, AR, OCR
-- ML.UseCases: 50+ deployed to prod
 - Stages: DEF CON · Super Bowl · Cannes
