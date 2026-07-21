@@ -106,7 +106,10 @@ def parse(path):
                 handle = "@" + tag
             segs = [("- ", "dots"), (f"{title} ", "head")]
             if handle:
-                segs.append((f"{handle} ", "key"))
+                name, sep, extra = handle.partition(" (")
+                segs.append((f"{name} ", "key"))
+                if sep:
+                    segs.append((f"({extra} ", "text"))
             pad = sum(len(t) for t, _ in segs)
             lines.append(segs + [("─" * (STAT_W - pad), "rule")])
         elif s.startswith("- ") and ": " in s:

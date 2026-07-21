@@ -7,12 +7,12 @@ out_dark: assets/profile-dark.svg
 out_light: assets/profile-light.svg
 ---
 
-# Whoami @kdrwins
+# Whoami @kdrwins (X · LinkedIn)
 
 - Name: Kevin Dela Rosa
 - Building: video/multimodal agents
 - Experience: {years since 2007-05} in ML / NLP / CV
-- Web: kevindelarosa.com
+- Homepage: kevindelarosa.com
 
 ## History
 
