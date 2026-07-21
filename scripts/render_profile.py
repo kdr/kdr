@@ -29,7 +29,7 @@ from pathlib import Path
 
 from PIL import Image
 
-STAT_W = 44  # stats panel width in character cells
+STAT_W = 42  # stats panel width in character cells
 CELL_PX = 8  # svg px per art pixel
 
 THEMES = {
@@ -147,9 +147,9 @@ def esc(s):
 def render(theme, lines, art_b64, art_w, art_h):
     t = THEMES[theme]
     pad = 24
-    fs = 17
-    u = 10.2  # forced char cell width via textLength
-    lh = 23
+    fs = 21
+    u = 12.6  # forced char cell width via textLength
+    lh = 28
     stat_x = pad + art_w + 28
     text_h = 14 + (len(lines) - 1) * lh + 6
     H = max(art_h, text_h) + pad * 2

@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/profile-dark.svg">
-    <img src="assets/profile-light.svg" alt="Kevin Dela Rosa — pixel-art portrait beside terminal-style stats: Co-founder & CTO @ Cloudglue, 22 publications, 11 patents, 100M+ users reached" width="100%">
+    <img src="assets/profile-light.svg" alt="Kevin Dela Rosa — pixel-art portrait beside terminal-style stats: CTO of Cloudglue (YC S24), 22 publications, 11 patents" width="100%">
   </picture>
 </p>
 
