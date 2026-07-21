@@ -7,36 +7,20 @@ out_dark: assets/profile-dark.svg
 out_light: assets/profile-light.svg
 ---
 
-# kdr@github
+# Kevin Dela Rosa @kdrwins
 
-- Name: Kevin Dela Rosa
-- Role: Co-founder & CTO
-- Company: Cloudglue (YC S24)
-- Building: video context for agents
-- Experience: {years since 2007-05} in ML / NLP / CV
+- Building: video/multimodal agents
+- Homepage: kevindelarosa.com
 
-## Stack
+## {yrs since 2007-05} in Search / ML Infra / CV / NLP
 
-- Languages: Python, Go, TypeScript
-- AI: PyTorch, LLMs, Agents, RAG, MCP
-- Search: billion-scale vector search
-
-## History
-
-- 2024–now: Cloudglue, Co-founder & CTO
-- 2016–24: Perception @ Snap, Staff MLE
+- 2024–now: Cloudglue (YC S24), CTO
+- 2016–24: Snap, Staff MLE
 - 2011–16: Amazon, SDE
 - Degrees: CMU MS LTI · UTA BS Phys/CS
 
-## Contact
-
-- Web: kevindelarosa.com
-- Social: @kdrwins (X · LinkedIn)
-
-## By.The.Numbers
+## By the Numbers
 
 - Publications: 22 · NeurIPS CVPR SIGIR
 - Patents: 11 · visual search, AR, OCR
-- Users.Reached: 100,000,000+
-- ML.UseCases: 50+ | Team.Built: 0 → 10
 - Stages: DEF CON · Super Bowl · Cannes

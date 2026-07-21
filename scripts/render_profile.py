@@ -8,7 +8,7 @@
 
 profile.md format:
   - YAML-ish frontmatter: avatar, crop, cell, colors, out_dark, out_light
-  - `# user@host`  -> panel header line
+  - `# Title @handle` -> panel header (handle optional, sits after title)
   - `## Title`     -> section rule
   - `- Key: Value` -> dot-leader stat line
   - `{years since YYYY-MM}` in a value expands to "N years", computed
@@ -29,7 +29,7 @@ from pathlib import Path
 
 from PIL import Image
 
-STAT_W = 44  # stats panel width in character cells
+STAT_W = 42  # stats panel width in character cells
 CELL_PX = 8  # svg px per art pixel
 
 THEMES = {
@@ -60,12 +60,13 @@ FONT = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',m
 
 def expand_years(value):
     def repl(m):
-        y, mo = int(m.group(1)), int(m.group(2))
+        unit, y, mo = m.group(1), int(m.group(2)), int(m.group(3))
         today = date.today()
         years = ((today.year - y) * 12 + (today.month - mo)) // 12
-        return f"{years} year" + ("s" if years != 1 else "")
+        stem = "yr" if unit == "yrs" else "year"
+        return f"{years} {stem}" + ("s" if years != 1 else "")
 
-    return re.sub(r"\{years since (\d{4})-(\d{2})\}", repl, value)
+    return re.sub(r"\{(years|yrs) since (\d{4})-(\d{2})\}", repl, value)
 
 
 def parse(path):
@@ -88,7 +89,7 @@ def parse(path):
         if not s:
             continue
         if s.startswith("## "):
-            title = s[3:].strip()
+            title = expand_years(s[3:].strip())
             head = f"- {title} "
             lines.append([])
             lines.append(
@@ -100,11 +101,16 @@ def parse(path):
             )
         elif s.startswith("# "):
             title = s[2:].strip()
-            if "@" in title:
-                user, host = title.split("@", 1)
-                segs = [(user, "key"), ("@", "at"), (f"{host} ", "head")]
-            else:
-                segs = [(f"{title} ", "head")]
+            handle = ""
+            if " @" in title:
+                title, tag = title.split(" @", 1)
+                handle = "@" + tag
+            segs = [("- ", "dots"), (f"{title} ", "head")]
+            if handle:
+                name, sep, extra = handle.partition(" (")
+                segs.append((f"{name} ", "key"))
+                if sep:
+                    segs.append((f"({extra} ", "text"))
             pad = sum(len(t) for t, _ in segs)
             lines.append(segs + [("─" * (STAT_W - pad), "rule")])
         elif s.startswith("- ") and ": " in s:
@@ -147,9 +153,9 @@ def esc(s):
 def render(theme, lines, art_b64, art_w, art_h):
     t = THEMES[theme]
     pad = 24
-    fs = 17
-    u = 10.2  # forced char cell width via textLength
-    lh = 23
+    fs = 30
+    u = 18.0  # forced char cell width via textLength
+    lh = 40
     stat_x = pad + art_w + 28
     text_h = 14 + (len(lines) - 1) * lh + 6
     H = max(art_h, text_h) + pad * 2
