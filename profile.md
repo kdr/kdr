@@ -19,7 +19,7 @@ out_light: assets/profile-light.svg
 - 2011–16: Amazon, SDE
 - Degrees: CMU MS LTI · UTA BS Phys/CS
 
-## By.The.Numbers
+## By the Numbers
 
 - Publications: 22 · NeurIPS CVPR SIGIR
 - Patents: 11 · visual search, AR, OCR
