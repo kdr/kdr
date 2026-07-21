@@ -60,12 +60,13 @@ FONT = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',m
 
 def expand_years(value):
     def repl(m):
-        y, mo = int(m.group(1)), int(m.group(2))
+        unit, y, mo = m.group(1), int(m.group(2)), int(m.group(3))
         today = date.today()
         years = ((today.year - y) * 12 + (today.month - mo)) // 12
-        return f"{years} year" + ("s" if years != 1 else "")
+        stem = "yr" if unit == "yrs" else "year"
+        return f"{years} {stem}" + ("s" if years != 1 else "")
 
-    return re.sub(r"\{years since (\d{4})-(\d{2})\}", repl, value)
+    return re.sub(r"\{(years|yrs) since (\d{4})-(\d{2})\}", repl, value)
 
 
 def parse(path):

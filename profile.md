@@ -11,7 +11,7 @@ out_light: assets/profile-light.svg
 
 - Name: Kevin Dela Rosa
 - Building: video/multimodal agents
-- Experience: {years since 2007-05} in ML / NLP / CV
+- Exp: {yrs since 2007-05} in ML Infra / Search / CV
 - Homepage: kevindelarosa.com
 
 ## History
