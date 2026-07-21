@@ -89,7 +89,7 @@ def parse(path):
         if not s:
             continue
         if s.startswith("## "):
-            title = s[3:].strip()
+            title = expand_years(s[3:].strip())
             head = f"- {title} "
             lines.append([])
             lines.append(
@@ -153,9 +153,9 @@ def esc(s):
 def render(theme, lines, art_b64, art_w, art_h):
     t = THEMES[theme]
     pad = 24
-    fs = 21
-    u = 12.6  # forced char cell width via textLength
-    lh = 28
+    fs = 30
+    u = 18.0  # forced char cell width via textLength
+    lh = 40
     stat_x = pad + art_w + 28
     text_h = 14 + (len(lines) - 1) * lh + 6
     H = max(art_h, text_h) + pad * 2

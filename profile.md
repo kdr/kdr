@@ -7,17 +7,15 @@ out_dark: assets/profile-dark.svg
 out_light: assets/profile-light.svg
 ---
 
-# Whoami @kdrwins (X · LinkedIn)
+# Kevin Dela Rosa @kdrwins
 
-- Name: Kevin Dela Rosa
 - Building: video/multimodal agents
-- Exp: {yrs since 2007-05} in ML Infra / Search / CV
 - Homepage: kevindelarosa.com
 
-## History
+## {yrs since 2007-05} in Search / ML Infra / CV
 
 - 2024–now: Cloudglue (YC S24), CTO
-- 2016–24: Perception @ Snap, Staff MLE
+- 2016–24: Snap, Staff MLE
 - 2011–16: Amazon, SDE
 - Degrees: CMU MS LTI · UTA BS Phys/CS
 
