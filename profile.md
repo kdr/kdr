@@ -12,7 +12,7 @@ out_light: assets/profile-light.svg
 - Building: video/multimodal agents
 - Homepage: kevindelarosa.com
 
-## {yrs since 2007-05} in Search / ML Infra / CV
+## {yrs since 2007-05} in Search / ML Infra / CV / NLP
 
 - 2024–now: Cloudglue (YC S24), CTO
 - 2016–24: Snap, Staff MLE
