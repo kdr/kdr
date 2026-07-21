@@ -10,9 +10,11 @@ out_light: assets/profile-light.svg
 # Whoami
 
 - Name: Kevin Dela Rosa
-- Building: video context for agents
+- Building: video/multimodal agents
 - Experience: {years since 2007-05} in ML / NLP / CV
 - Stack: Python · Go · TS · PyTorch
+- Web: kevindelarosa.com
+- Social: @kdrwins (X · LinkedIn)
 
 ## History
 
@@ -20,11 +22,6 @@ out_light: assets/profile-light.svg
 - 2016–24: Perception @ Snap, Staff MLE
 - 2011–16: Amazon, SDE
 - Degrees: CMU MS LTI · UTA BS Phys/CS
-
-## Contact
-
-- Web: kevindelarosa.com
-- Social: @kdrwins (X · LinkedIn)
 
 ## By.The.Numbers
 

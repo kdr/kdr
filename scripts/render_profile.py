@@ -102,9 +102,9 @@ def parse(path):
             title = s[2:].strip()
             if "@" in title:
                 user, host = title.split("@", 1)
-                segs = [(user, "key"), ("@", "at"), (f"{host} ", "head")]
+                segs = [("- ", "dots"), (user, "key"), ("@", "at"), (f"{host} ", "head")]
             else:
-                segs = [(f"{title} ", "head")]
+                segs = [("- ", "dots"), (f"{title} ", "head")]
             pad = sum(len(t) for t, _ in segs)
             lines.append(segs + [("─" * (STAT_W - pad), "rule")])
         elif s.startswith("- ") and ": " in s:
