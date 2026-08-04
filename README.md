@@ -32,7 +32,7 @@
 >
 > **[Evidence-Grounded Video Investigation over Large Video Corpora](https://eccv.ecva.net/Conferences/2026)**
 >
-> 🗓️ During the main conference, **Sept 10–12** · Malmö, Sweden · [github.com/kdr/overcast](https://github.com/kdr/overcast)
+> 🗓️ During the main conference, **Sept 10–12** · Malmö, Sweden
 
 ---
 
