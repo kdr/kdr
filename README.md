@@ -28,11 +28,11 @@
 >
 > 🗓️ **Fri Aug 7, 12:00** & **Sat Aug 8, 16:00 PDT** · LVCC Exhibit Hall West 3 (Demo Labs Track 6) · [github.com/kdr/overcast](https://github.com/kdr/overcast)
 
-> ### 🎥 Then — ECCV 2026 Demos
+> ### 🎥 ECCV 2026 Demo
 >
 > **[Evidence-Grounded Video Investigation over Large Video Corpora](https://eccv.ecva.net/Conferences/2026)**
 >
-> 🗓️ During the main conference, **Sept 10–12** · Malmö, Sweden
+> 🗓️ Demo Session TBD · **Sept 10–12** · Malmö, Sweden
 
 ---
 
