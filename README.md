@@ -16,6 +16,7 @@
   <a href="https://scholar.google.com/citations?user=8Pc5MiUAAAAJ&hl=en"><img src="https://img.shields.io/badge/Scholar-2f5c8f?style=flat-square&logo=googlescholar&logoColor=white" alt="Google Scholar"/></a>
   <a href="https://www.linkedin.com/in/kdrwins/"><img src="https://img.shields.io/badge/LinkedIn-2f5c8f?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://x.com/kdrwins"><img src="https://img.shields.io/badge/%40kdrwins-161a1d?style=flat-square&logo=x&logoColor=white" alt="X"/></a>
+  <a href="https://www.youtube.com/@ArtisanalIntelligence"><img src="https://img.shields.io/badge/YouTube-c8462e?style=flat-square&logo=youtube&logoColor=white" alt="YouTube — Artisanal Intelligence"/></a>
 </p>
 
 ---
