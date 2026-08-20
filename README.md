@@ -25,7 +25,7 @@
 >
 > **[Evidence-Grounded Video Investigation over Large Video Corpora](https://eccv.ecva.net/Conferences/2026)**
 >
-> 🗓️ Morning Session · **Sept 12, 8:00–12:30** · Malmö, Sweden
+> 🗓️ Morning Demo Session · **Sept 12, 8:00–12:30** · Malmö, Sweden
 
 ---
 
