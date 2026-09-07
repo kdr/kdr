@@ -23,7 +23,7 @@
 
 > ### 📡 Next up — ECCV 2026 Demo
 >
-> **[Evidence-Grounded Video Investigation over Large Video Corpora](https://eccv.ecva.net/Conferences/2026)**
+> **[Evidence-Grounded Video Investigation over Large Video Corpora](https://eccv.ecva.net/virtual/2026/demonstration/6234)**
 >
 > 🗓️ Morning Demo Session · **Sept 12, 8:00–12:30** · Malmö, Sweden
 
