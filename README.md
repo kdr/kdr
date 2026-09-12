@@ -21,14 +21,6 @@
 
 ---
 
-> ### 📡 Next up — ECCV 2026 Demo
->
-> **[Evidence-Grounded Video Investigation over Large Video Corpora](https://eccv.ecva.net/virtual/2026/demonstration/6234)**
->
-> 🗓️ Demo Session · **Sat Sept 12, 10:30–12:30** · Malmö, Sweden
-
----
-
 ### Selected work & talks
 
 - **Overcast** — video OSINT agent; point it at 100 videos, ask anything · *DEF CON 34 Demo Labs* · [github](https://github.com/kdr/overcast)
